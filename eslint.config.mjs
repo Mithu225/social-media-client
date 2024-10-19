@@ -9,6 +9,8 @@ export default [
         ...globals.browser,
         ...globals.jest,
         ...globals.node,
+        cy: true,
+        Cypress: true,
       },
     },
   },
